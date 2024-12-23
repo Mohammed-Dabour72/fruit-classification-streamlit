@@ -5,13 +5,13 @@ import numpy as np
 from PIL import Image
 
 # Define the labels
-LABELS = ['turnip', 'carrot', 'paprika', 'raddish', 'beetroot', 'garlic',
-          'ginger', 'apple', 'cauliflower', 'jalepeno', 'cucumber', 'potato',
-          'capsicum', 'pineapple', 'eggplant', 'tomato', 'chilli pepper',
-          'cabbage', 'banana', 'peas', 'lettuce', 'grapes', 'bell pepper',
-          'corn', 'orange', 'watermelon', 'pear', 'pomegranate', 'onion',
-          'sweetcorn', 'kiwi', 'soy beans', 'mango', 'spinach', 'lemon',
-          'sweetpotato']
+LABELS = ['apple', 'banana', 'beetroot', 'bell pepper', 'cabbage', 'capsicum', 'carrot',
+ 'cauliflower', 'chilli pepper', 'corn', 'cucumber', 'eggplant', 'garlic',
+ 'ginger', 'grapes', 'jalepeno', 'kiwi', 'lemon', 'lettuce', 'mango', 'onion',
+ 'orange', 'paprika', 'pear', 'peas', 'pineapple', 'pomegranate', 'potato',
+ 'raddish', 'soy beans', 'spinach', 'sweetcorn', 'sweetpotato', 'tomato',
+ 'turnip', 'watermelon']
+
 
 # Load the saved model
 @st.cache_resource
